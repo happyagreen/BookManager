@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_preload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bcoder.zxingtest.Preload">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:id="@+id/l1"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/button25"
+            android:background="@android:color/background_light"
+            android:layout_x="154dp"
+            android:layout_y="350dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/button26"
+            android:background="@android:color/background_light"
+            android:layout_x="177dp"
+            android:layout_y="350dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/button27"
+            android:background="@android:color/background_light"
+            android:layout_x="200dp"
+            android:layout_y="350dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/button28"
+            android:background="@android:color/background_light"
+            android:layout_x="222dp"
+            android:layout_y="350dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/button29"
+            android:background="@android:color/background_light"
+            android:layout_x="246dp"
+            android:layout_y="350dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textSize="28sp"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
